@@ -1,0 +1,151 @@
+/* all css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+/* nav root div css */
+.rootNav{
+    display: flex;
+    background: #eee;
+    height: 50px;
+}
+/* logo css */
+.LOGO{
+    height: 120px;
+    padding-bottom: 50px;
+    margin-left: 40px;
+}
+/* nav css */
+.navbar{
+    margin-top: 20px;
+    margin-left: 1100px;
+    font-size: small;
+}
+ul li{
+  display: inline-block;
+  margin-top: 8px;
+  padding-left: 20px;
+  color: #212121;
+}
+ul li:hover{
+    color: #8b8b8b;
+    transition: all 0.6s ease;
+}
+.Home{
+    text-decoration: none;
+}
+
+/* nav two  */
+.navRoottwo{
+    margin-left: 90px;
+}
+.logo_two{
+    width: 100px;
+    height: 100px;
+}
+.logotwo{
+    display: flex;
+}
+.main_nav a{
+    text-decoration: none;
+    color: #212121;
+}
+.main_nav a:hover{
+    color: #F6635C;
+    transition: all 0.6s ease;
+}
+.main_nav{
+    margin-left: 350px;
+    margin-top: 20px;
+}
+.main_li{
+    padding: 10px;
+}
+
+/* search */
+.fi{
+    height: 30px;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.addTOcart{
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+/* ............................................................ */
+
+/* contant */
+
+#shoes{
+    height: 200px;
+    margin-left: 200px;
+}
+#spanMrp{
+    margin-left: 50px;
+}
+#nikeText{
+    margin-left: 150px;
+}
+.blockShoesOne{
+    border: 1px solid #111;
+    width: 40%;
+    margin-left: 20px;
+}
+
+
+/* btn */
+#decrase{
+    width: 40px;
+    height: 30px;
+    border: 2px solid #111;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#decrase:hover{
+    border: 2px solid blueviolet;
+    cursor: pointer;
+}
+
+#display{
+    width: 70px;
+    height: 30px;
+    border: 2px solid #111;
+    background-color: #fff;
+}
+
+#display:hover{
+    border: 2px solid blueviolet;
+}
+
+#increes:hover{
+    border: 2px solid blueviolet;
+    cursor: pointer;
+}
+
+#increes{
+    width: 40px;
+    height: 30px;
+    border: 2px solid #111;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#btn{
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* total price */
+.totalCss{
+    padding: 20px;
+    margin-left: 199px;
+}

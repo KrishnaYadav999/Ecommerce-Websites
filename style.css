@@ -1,0 +1,627 @@
+/* all css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+/* nav root div css */
+.rootNav{
+    display: flex;
+    background: #eee;
+    height: 50px;
+}
+/* logo css */
+.LOGO{
+    height: 120px;
+    padding-bottom: 50px;
+    margin-left: 40px;
+}
+/* nav css */
+.navbar{
+    margin-top: 20px;
+    margin-left: 1100px;
+    font-size: small;
+}
+ul li{
+  display: inline-block;
+  margin-top: 8px;
+  padding-left: 20px;
+  color: #212121;
+}
+ul li:hover{
+    color: #8b8b8b;
+    transition: all 0.6s ease;
+}
+.Home{
+    text-decoration: none;
+}
+
+/* nav two  */
+.navRoottwo{
+    margin-left: 90px;
+}
+.logo_two{
+    width: 100px;
+    height: 100px;
+}
+.logotwo{
+    display: flex;
+}
+.main_nav a{
+    text-decoration: none;
+    color: #212121;
+}
+.main_nav a:hover{
+    color: #F6635C;
+    transition: all 0.6s ease;
+}
+.main_nav{
+    margin-left: 350px;
+    margin-top: 20px;
+}
+.main_li{
+    padding: 10px;
+}
+
+/* search */
+.serchRoot{
+    margin-left: 200px;
+    display: flex;
+}
+.serchmain{
+    width: 65%;
+    border-radius: 5px;
+    height: 30px;
+    border: 2px solid #eee;
+    margin-bottom: 20px;
+    margin-top: 33px;
+}
+.serchmain::placeholder{
+    padding-left: 10px;
+    font-size: small;
+}
+.fi{
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
+    padding-left: 10px;
+}
+.addTOcart{
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.logoSer{
+    margin-top: 37px;
+    position: absolute;
+    margin-left: 150px;
+}
+/* .......................................................................................................... */
+/* search */
+/* Your CSS styles here */
+
+.search-container {
+    position: relative;
+}
+
+.search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #F6635C;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    overflow: hidden;
+    transition: width 0.3s ease-in-out;
+}
+
+.search-box.active {
+    width: 200px;
+}
+
+.search-box input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-box button {
+    background-color: #F6635C;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.close-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(0%, 0%);
+}
+/* ............................................................................................................. */
+
+/* text add start */
+.textRoot{
+    background-color: #eee;
+    text-align: center;
+    width: 100%;
+    height: 90px;
+    overflow: hidden;
+}
+
+/* text animation */
+.ME{
+   
+    animation: slid 2s ease 0s 1;
+    padding: 10px;
+}
+.text_add{
+    font-size: small;
+}
+@keyframes slid {
+    0%{
+       margin-top: -100px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
+/* text animation end */
+
+/* nike add img */
+
+.nikeaddImg{
+   object-fit: cover;
+   height: 450px;
+   width: 100%;
+}
+
+/* text  add down */
+
+.rootcontenerText{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.Texttwo{
+    font-size: 35px;
+}
+
+.textThree{
+    margin-top: 20px;
+}
+
+/* btn  twx down*/
+
+.btnroot{
+    margin-top: 30px;
+}
+.btncss{
+    width: 110px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-size: large;
+}
+.btncss:hover{
+    background-color: #7c7575;
+    cursor: pointer;
+}
+
+/* btn end */
+
+/*  */
+.spancolortext{
+    color: #F6635C;
+}
+.Stextone{
+    margin-top: 60px;
+    margin-left: 650px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    animation: jump 11s ease 1.6s 1;
+}
+@keyframes jump{
+    0%{
+        margin-left: -10px;
+    }
+    100%{
+        margin-left: 650px;
+    }
+}
+
+/* boxOne css contaner */
+.allbox{
+    display: flex;
+    margin-top: 25px;
+    object-fit: contain;
+}
+.boxOne{
+    width: 450px;
+    object-fit: cover;
+    margin-left: 65px;
+}
+.nikeone{
+    width: 350px;
+}
+.nickTwo{
+    width: 350px;
+}
+
+/* 0 */
+
+.mrp{
+    padding-left: 90px;
+    color: black;
+}
+h4{
+    color: black;
+}
+.mrpText{
+    color: #555;
+}
+
+/* video */
+.video{
+    width: 90%;
+    border: none;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.justIn{
+    margin-top: 100px;
+}
+.just_in{
+    font-size: 23px;
+    margin-left: 70px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/*  */
+.textvideoDown{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 50px;
+}
+.textpara{
+    font-size: medium;
+}
+
+/*  */
+.shopbtnn{
+    width: 5%;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 720px;
+    margin-top: 30px;
+    border: none;
+    color: #fff;
+    background-color: black;
+}
+.shopbtnn:hover{
+    background-color: #7c7575;
+    cursor: pointer;
+}
+
+/*  */
+.textFeatured{
+    margin-left: 123px;
+    margin-top: 100px;
+}
+.fffff{
+    margin-left: 50px;
+}
+.roorTowadd{
+ display: flex;   
+ margin-left: 75px;
+}
+
+/* two img add text and button */
+
+.rootaddROOT{
+    display: flex;
+    cursor: pointer;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+    position: relative;
+    margin-left: 50px;
+  }
+  
+   /* Style the text and place it in the container/image */ 
+  .textRight{
+    position: absolute;
+    bottom: 14%;
+    margin-left: 10%;
+  }
+  /* Style the button and place it in the container/image */
+  .container .btnz {
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 15%;
+    height: 40px;
+  }
+  
+  .container .btnz:hover {
+    background-color: #7c7575;
+  }
+
+
+/* ...................................................... */
+/* Block Five */
+.blockFivetextparabtnroot{
+    margin-top: 30px;
+}
+.BlockFiveRoot{
+    font-size: 35px;
+    text-align: center;
+    font-style: oblique;
+}
+.paraBlockfive{
+    font-size: medium;
+    color: #7c7575;
+}
+
+
+/* ............... */
+.boxsixText{
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.rootAllshoes{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.shoesAll img{
+    width: 300px;
+    height: 330px;
+    margin-left: 30px;
+}
+
+/* men,women,kid */
+.textmwk{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.menoutfits{
+    height: 500px;
+}
+
+.mwkoutfitsRoot{
+    display: flex;
+    margin-left: 130px;
+}
+
+.mwkroot{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.btnMen{
+   width: 6%;
+   position: absolute;
+   margin-left: 60px;
+   margin-top: 400px;
+   height: 40px;
+   border-radius: 20px;
+   background-color: #fff;
+   color: black;
+   border: none;
+}
+
+.btnWomen{
+    width: 6%;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 400px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: black;
+    border: none;
+}
+
+.btnWomen:hover{
+    background-color: #7c7575;
+}
+
+.btnKid{
+    width: 6%;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 400px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: black;
+    border: none;
+}
+
+.btnKid:hover{
+    background-color: #7c7575;
+}
+
+.btnMen:hover{
+    background-color: #7c7575;
+}
+
+/* end */
+
+/* start foot 0.0 */
+.pall{
+    margin-top: 20px;
+    cursor: pointer;
+    color: #7c7575;
+}
+.pall:hover{
+    color: #111;
+}
+.isck{
+    margin-top: 20px;
+    font-size: medium;
+}
+
+.icons_Shoes_Clothing_Kidsroot{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 240px;
+}
+
+.icons{
+    margin-left: 100px;
+}
+
+.shoes{
+    margin-left: 100px;
+}
+
+.Clothing{
+    margin-left: 100px;
+}
+
+.kids{
+    margin-left: 100px;
+}
+
+/* footer start */
+.footerRoot{
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    background-color: #111;
+    height: 280px;
+}
+
+.FINDASTORE{
+    margin-right: 70px;
+    margin-top: 15px;
+    color: #fff;
+    margin-left: 100px;
+}
+
+.Help{
+    margin-right: 70px;
+    margin-top: 15px;
+}
+
+.allhone{
+    font-size: 12px;
+    margin-top: 15px;
+    color: #fff;
+    
+}
+.aboutus{
+    margin-top: 15px;
+}
+.hall{
+    color: #7c7575;
+    margin-top: 15px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.hall:hover{
+    color: #fff;
+}
+.aall{
+    color: #7c7575;
+    margin-top: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.aall:hover{
+    color: #fff;
+}
+
+.allhelp{
+    font-size: 12px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.media img{
+    height: 25px;
+    margin-top: 15px;
+}
+
+.w{
+    margin-left: 760px;
+}
+.t{
+    margin-left: 10px;
+}
+.i{
+    margin-left: 10px;
+}
+
+.locationRoot{
+    background-color: #111;
+    height: 50px;
+    display: flex;
+    width: 100%;
+}
+
+.location img{
+    height: 20px;
+    margin-left: 50px;
+}
+
+.india {
+    color: #fff;
+    font-size: small;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.copyR{
+    color: #fff;
+    display: flex;
+    margin-left: 50px;
+    font-size: small;
+    margin-top: 5px;
+}
+
+
+

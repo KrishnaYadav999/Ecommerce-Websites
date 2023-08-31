@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/singIn.css">
+    <title>SingIn</title>
+</head>
+<body>
+    <section>
+        <div class="rootNav"> <!--nav root contact-->
+
+            <!-- logo start -->
+            <div class="logoNav"><!--logo div start-->
+                <a href="#">
+                    <img src="/jordanlogo-removebg-preview.png" alt="Shop Logo" class="LOGO"> <!--nav logo-->
+                </a>
+            </div><!--logo div end-->
+            <!-- logo end -->
+
+            <!-- nav start -->
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <a href="/findourstore.html"><li>Find a Store |</li></a>
+                        <a href="/help.html"><li>Help |</li></a>
+                        <a href="#"> <li>Sign In |</li></a>
+                        <a href="/index.html"> <li>Home |</li></a>
+                    </ul>
+                </nav>
+            </div>
+
+        </div> <!--nav root end contact-->
+
+        <!-- .............................................................................................................  -->
+
+        <!-- nav root two -->
+        <div class="navRoottwo">
+            <div class="logotwo"> <!--logo two start-->
+                <a href="#">
+                    <img src="/nikeLogo.png" alt="logo" class="logo_two">
+                </a>
+
+                <nav>
+                    <ul class="main_nav">
+                        <li class="main_li"><a href="#"><span class="Home">New & Featured</span></a></li>
+                        <li class="main_li"><a href="#Tshart">Men</a></li>
+                        <li class="main_li"><a href="#">Women</a></li>
+                        <li class="main_li"><a href="#sshorall">Kids</a></li>
+                        <li class="main_li"><a href="#">Sale</a></li>
+                    </ul>
+                </nav>
+                    <a href="#"><img src="/star.png" alt="Favourite icon" class="fi"></a>
+                    <a href="#"><img src="/basket.png" alt="add to cart" class="addTOcart"></a>
+                </div>
+
+            </div> <!--logo two end-->
+
+        </div> <!--nav root two end-->
+    </section> <!--nav section end-->
+
+
+<!-- .......................................................................... -->
+    <section>
+        <div class="startLoginroot">
+            <div class="start">
+                <img src="/nikeLogo.png" height="80px" class="logonike">
+                <p class="loginText"> YOUR ACCOUNT FOR <br><span class="one">EVERYTHING NIKE</span></p>
+            </div>
+
+          <form>
+
+            <div class="input">
+                <input type="email" id="email" placeholder="Email address"><br><br>
+                <div id="eval"></div>
+                <div id="emty"></div>
+
+                <input type="password" placeholder="Password" id="password">
+                <div id="passwordempty"></div>
+                <div class="ep"></div>
+
+                <div id="ep"></div>
+
+                <input type="button" value="Submit" class="submit" onclick="krishna();"><br><br>
+                <a href="#" class="forgate">Forgotten your password?</a><br><br>
+                <a href="#" class="rejester"><p>Not a Member? <span class="spancolor">Join Us.</span></p></a>
+            </div>
+
+          </form>
+        </div>
+    </section>
+
+
+
+    <!-- footer start -->
+    <footer>
+        <div class="footerRoot">
+            <div class="FINDASTORE">
+                <h2 class="allhone">FIND A STORE</h2>
+                <h2 class="allhone">BECOME A MEMBER</h2>
+                <h2 class="allhone">Send Us Feedback</h2>
+                <h2 class="allhone">STUDENT DISCOUNTS</h2>
+            </div>
+    
+            <div class="Help">
+                <h2 class="allhelp">GET HELP</h2>
+                <p class="hall">Order Status</p>
+                <p class="hall">Delivery</p>
+                <p class="hall">Returns</p>
+                <p class="hall"> Payment Options</p>
+                <p class="hall"> Contact Us On Nike.com Inquiries</p>
+                <p class="hall"> Contact Us On All Other Inquiries</p>   
+            </div>
+    
+            <div class="aboutus">
+                <h2 class="allhone">ABOUT NIKE</h2>
+                <p class="aall">News</p>
+                <p class="aall">Careers</p>
+                <p class="aall">Investors</p>
+                <p class="aall">Sustainability</p>
+            </div>
+    
+            <div class="media">
+                <a href="https://www.instagram.com/p/CvsBioxxTfh4RBz9vm9OvwSDnYcGE5A8MxDz-w0/?igshid=MzRlODBiNWFlZA=="><img src="/instagram.png" alt="whatsapp" class="w"></a>
+            </div>
+    
+            <div class="media">
+                <a href="https://chat.whatsapp.com/F1SUmKhHKAR70yDAQeFIjV"><img src="/whatsapp (2).png" alt="telegram" class="t"></a>
+            </div>
+    
+            <div class="media">
+                <a href="https://t.me/KrishnaYadav9999"><img src="/telegram.png" alt="instageam" class="i"></a>
+            </div>
+    
+        </div>
+    </footer>
+    
+    <footer>
+        <div class="locationRoot">
+            <div class="location">
+                <a href="#"><img src="/google-maps.png" alt=""></a>
+            </div>
+    
+            <div class="india">INDIA</div>
+    
+            <div class="copyright">
+                <p class="copyR">&#169 2023 Nike,Made By Krishna Yadav</p>
+            </div>
+        </div>
+    
+    </footer>
+
+    <script>
+
+      function krishna(){
+
+        var e = document.getElementById("email").value;
+        var p = document.getElementById("password").value;
+
+        var em = /^\S+@\S+\.\S+$/;
+
+        document.getElementById("ep").innerHTML= '';
+        document.getElementById("emty").innerHTML = '';
+        document.getElementById("passwordempty").innerHTML = '';
+        document.getElementById("eval").innerHTML = '';
+
+
+        if(e==='' && p===''){
+            var z = `Please enter email & password`
+            document.getElementById("ep").innerHTML = z;
+        }
+        else if(e===''){
+           var x = `Please enter a valid email address.`
+           document.getElementById("emty").innerHTML = x;
+        }
+        else if(!em.test(e)){
+            var a = `Enter a valid email addres`
+            document.getElementById("eval").innerHTML = a;
+        }
+        else if(p===''){
+            var y = `Please enter a password.`;
+            document.getElementById("passwordempty").innerHTML = y;
+        }
+        else{
+            alert("login succes 👍")
+            location.reload();
+        }
+    }
+
+
+
+    </script>
+    
+</body>
+</html>

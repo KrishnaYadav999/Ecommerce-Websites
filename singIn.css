@@ -1,0 +1,268 @@
+/* all css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+/* nav root div css */
+.rootNav{
+    display: flex;
+    background: #eee;
+    height: 50px;
+}
+/* logo css */
+.LOGO{
+    height: 120px;
+    padding-bottom: 50px;
+    margin-left: 40px;
+}
+/* nav css */
+.navbar{
+    margin-top: 20px;
+    margin-left: 1100px;
+    font-size: small;
+}
+ul li{
+  display: inline-block;
+  margin-top: 8px;
+  padding-left: 20px;
+  color: #212121;
+}
+ul li:hover{
+    color: #8b8b8b;
+    transition: all 0.6s ease;
+}
+.Home{
+    text-decoration: none;
+}
+
+/* nav two  */
+.navRoottwo{
+    margin-left: 90px;
+}
+.logo_two{
+    width: 100px;
+    height: 100px;
+}
+.logotwo{
+    display: flex;
+}
+.main_nav a{
+    text-decoration: none;
+    color: #212121;
+}
+.main_nav a:hover{
+    color: #F6635C;
+    transition: all 0.6s ease;
+}
+.main_nav{
+    margin-left: 350px;
+    margin-top: 20px;
+}
+.main_li{
+    padding: 10px;
+}
+
+/* search */
+.fi{
+    height: 30px;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.addTOcart{
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+/*  */
+
+.logonike{
+    margin: 50px 0px 0px 700px;
+}
+.loginText{
+    margin-left: 650px;
+    font-size: large;
+    font-weight: bolder;
+}
+.one{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* input */
+.email::placeholder{
+    padding-left: 10px;
+    font-size: medium;
+}
+.password::placeholder{
+    padding-left: 10px;
+    font-size: medium;
+}
+#email{
+    height: 35px;
+    width: 17%;
+    border: 2px solid #eee;
+    margin-left: 610px;
+    margin-top: 20px;
+}
+#password{
+    height: 35px;
+    width: 17%;
+    border: 2px solid #eee;
+    margin-left: 610px;
+}
+.submit{
+    width: 17%;
+    margin-left: 610px;
+    margin-top: 10px;
+    height: 35px;
+    background-color: #111;
+    color: #fff;
+    cursor: pointer;
+}
+.forgate{
+    margin-left: 645px;
+    text-decoration: none;
+    color: #8b8b8b;
+}
+.rejester p{
+    margin-left: 670px;
+    color: #8b8b8b;
+    font-size: small;
+    cursor: pointer;
+}
+.spancolor{
+    text-decoration: underline;
+    color: #111;
+}
+
+/* footer start */
+/* footer start */
+
+.footerRoot{
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    background-color: #111;
+    height: 280px;
+}
+
+.FINDASTORE{
+    margin-right: 70px;
+    margin-top: 15px;
+    color: #fff;
+    margin-left: 100px;
+}
+
+.Help{
+    margin-right: 70px;
+    margin-top: 15px;
+}
+
+.allhone{
+    font-size: 12px;
+    margin-top: 15px;
+    color: #fff;
+    
+}
+.aboutus{
+    margin-top: 15px;
+}
+.hall{
+    color: #7c7575;
+    margin-top: 15px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.hall:hover{
+    color: #fff;
+}
+.aall{
+    color: #7c7575;
+    margin-top: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.aall:hover{
+    color: #fff;
+}
+
+.allhelp{
+    font-size: 12px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.media img{
+    height: 25px;
+    margin-top: 15px;
+}
+
+.w{
+    margin-left: 760px;
+}
+.t{
+    margin-left: 10px;
+}
+.i{
+    margin-left: 10px;
+}
+
+.locationRoot{
+    background-color: #111;
+    height: 50px;
+    display: flex;
+    width: 100%;
+}
+
+.location img{
+    height: 20px;
+    margin-left: 50px;
+}
+
+.india {
+    color: #fff;
+    font-size: small;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.copyR{
+    color: #fff;
+    display: flex;
+    margin-left: 50px;
+    font-size: small;
+    margin-top: 5px;
+}
+/*  */
+
+#emailvalid{
+    color: red;
+    margin-left: 650px;
+    font-size: small;
+}
+#emty{
+    color: red;
+    margin-left: 650px;
+    font-size: small;
+}
+#ep{
+    color: red;
+    margin-left: 650px;
+    font-size: small;
+}
+#passwordempty{
+    color: red;
+    font-size: small;
+    margin-left: 650px;
+}
+#eval{
+    color: red;
+    font-size: small;
+    margin-left: 650px;
+}

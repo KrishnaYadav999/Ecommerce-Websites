@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/addtoCart.css">
+    <title>Add-To-Cart</title>
+</head>
+<body>
+    <section>
+        <div class="rootNav"> <!--nav root contact-->
+
+            <!-- logo start -->
+            <div class="logoNav"><!--logo div start-->
+                <a href="#">
+                    <img src="/jordanlogo-removebg-preview.png" alt="Shop Logo" class="LOGO"> <!--nav logo-->
+                </a>
+            </div><!--logo div end-->
+            <!-- logo end -->
+
+            <!-- nav start -->
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <a href="/findourstore.html"><li>Find a Store |</li></a>
+                        <a href="/help.html"><li>Help |</li></a>
+                        <a href="/singIn.html"> <li>Sign In |</li></a>
+                        <a href="/index.html"> <li>Home |</li></a>
+                    </ul>
+                </nav>
+            </div>
+
+        </div> <!--nav root end contact-->
+
+        <!-- .............................................................................................................  -->
+
+        <!-- nav root two -->
+        <div class="navRoottwo">
+            <div class="logotwo"> <!--logo two start-->
+                <a href="#">
+                    <img src="/nikeLogo.png" alt="logo" class="logo_two">
+                </a>
+
+                <nav>
+                    <ul class="main_nav">
+                        <li class="main_li"><a href="#"><span class="Home">New & Featured</span></a></li>
+                        <li class="main_li"><a href="#Tshart">Men</a></li>
+                        <li class="main_li"><a href="#">Women</a></li>
+                        <li class="main_li"><a href="#sshorall">Kids</a></li>
+                        <li class="main_li"><a href="#">Sale</a></li>
+                    </ul>
+                </nav>
+                    <a href="#"><img src="star.png" alt="Favourite icon" class="fi"></a>
+                    <a href="/addtocart.html"><img src="basket.png" alt="add to cart" class="addTOcart"></a>
+                </div>
+
+            </div> <!--logo two end-->
+
+        </div> <!--nav root two end-->
+    </section> <!--nav section end-->
+
+    <section>
+    <div class="blockShoesOne">
+        <a href="/shoesone.html"><img src="/jordan4img.jpg" id="shoes"></a>
+        <p id="nikeText">Nike Revolution 6 FlyEase <span id="spanMrp">₹3000</span></p>
+
+        <div id="btn">
+            <input type="button" value="-" id="decrase" onclick="decrase()">
+            <input type="button" value="0" id="display">
+            <input type="button" value="+" id="increes" onclick="increes()">
+        </div>
+        <p class="totalCss">Total Price: ₹ <span id="totalprice">0</span></p>
+    </div>
+    </section>
+
+    <script>
+
+        var currentvalue = 0;
+        var maxValue = 5;
+        var iteamprice = 3000;
+
+        function priceTotal(){
+           var totalprice = currentvalue * iteamprice;
+            document.getElementById("totalprice").textContent = totalprice;
+        }
+
+        function decrase(){
+            if(currentvalue > 0){
+                currentvalue--;
+                priceTotal()
+            }
+            else{
+                alert("Cart Rang 0 To 5")
+            }
+            document.getElementById("display").value = currentvalue;    
+        }
+        function increes(){
+            if(currentvalue < maxValue){
+                currentvalue++;
+                priceTotal()
+            }
+            else{
+                alert("Max Items: 5");
+            }
+            document.getElementById("display").value = currentvalue
+        }
+    </script>
+</body>
+</html> 
